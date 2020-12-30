@@ -13,7 +13,6 @@ public class LoginTest {
 	public static void main(String[] args) throws InterruptedException {
 
 		
-		//rough package 
 		HomePage home = new HomePage();
 		LoginPage lp = home.goToLogin();
 		ZohoAppPage zpage= lp.doLogin("seleniumpractice3@gmail.com", "Selenium@1234");
